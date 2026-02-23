@@ -10,7 +10,8 @@ document.getElementById("login-btn").addEventListener("click", function () {
 
   if (contactNumberValue == "01728502644" && contactPinValue == "1234") {
     alert("login Successful");
-    window.location.assign("/home.html");
+    // window.location.assign("/home.html");
+    window.location.assign("home.html");
     // window.location.replace("/home.html");
   } else {
     alert("login Failed");
